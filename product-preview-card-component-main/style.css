@@ -1,0 +1,129 @@
+body{
+    background-color: #d3c5c5;
+    margin: 0;
+    padding: 0;
+}
+.contant{
+    display: flex;
+    width: 80%;
+    margin: 100px auto;
+    background-color: white; 
+    border-radius: 10px;
+    overflow: hidden;
+}
+.Container{
+    width: 80%;
+    margin: 70px auto;
+    
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.mobile-png{
+    display: none;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+.contant .perfume-info{
+    width: 100%;
+    padding: 2%;
+    margin: 8px;
+}
+.perfume-info>p{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 12px;
+    color: gray;
+    margin: 0;
+}
+.perfume-info>.heading{
+    letter-spacing: 5px;
+}
+.perfume-info>h1{
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+}
+form{
+    text-align: center;
+}
+button{
+    background-color:hsl(158, 36%, 37%);
+    border: none;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+button>img{
+    margin-right: 10px;
+}
+button:hover{
+    background-color: hsl(158, 89%, 18%);
+}
+
+.mobile-png{
+    display: none;
+}
+
+.price>h1{
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+}
+.price{
+    display: flex;
+}
+.price>p{
+    margin:12%;
+    text-decoration: line-through;
+    color: gray;
+}
+@media(max-width:1440px){
+    .contant{
+       width: 50%;
+    }
+}
+@media(max-width:1024px){
+    .contant{
+        width: 50%;
+        height: 40%;
+        margin: 20px auto;
+     }
+}
+@media(max-width:761px){
+    .contant{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .mobile{
+        display: ruby;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .mobile-png{
+        height: 100%;
+        width: 100%;
+        display: ruby;
+    }
+
+    .dextop{
+        display: none;
+    }
+    .price>p{
+        margin:10%;
+        text-decoration: line-through;
+        color: gray;
+    }
+}
+
