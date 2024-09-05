@@ -7,13 +7,19 @@ body{
     display: flex;
     width: 80%;
     margin: 100px auto;
+    margin-top: 100px;
     background-color: white; 
     border-radius: 10px;
     overflow: hidden;
+    
 }
 .Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 80%;
-    margin: 70px auto;
+    margin: 25px auto;
+    
     
 }
 .image img{
@@ -21,6 +27,9 @@ body{
     height: 100%;
     padding: 0;
     margin: 0;
+}
+.perfume-info{
+   
 }
 .mobile-png{
     display: none;
@@ -30,8 +39,8 @@ body{
 }
 .contant .perfume-info{
     width: 100%;
-    padding: 2%;
-    margin: 8px;
+    padding: 4%;
+    margin: 0;
 }
 .perfume-info>p{
     font-family: "Montserrat", sans-serif;
@@ -39,14 +48,17 @@ body{
     font-weight: 500;
     font-size: 12px;
     color: gray;
-    margin: 0;
+    margin: 5px;
+    line-height: 20px;
 }
 .perfume-info>.heading{
     letter-spacing: 5px;
+    margin:0;
 }
 .perfume-info>h1{
     font-family: "Fraunces", serif;
     font-optical-sizing: auto;
+    margin: 0;
 }
 form{
     text-align: center;
@@ -82,7 +94,7 @@ button:hover{
     display: flex;
 }
 .price>p{
-    margin:12%;
+    margin:13%;
     text-decoration: line-through;
     color: gray;
 }
@@ -121,7 +133,7 @@ button:hover{
         display: none;
     }
     .price>p{
-        margin:10%;
+        margin:8%;
         text-decoration: line-through;
         color: gray;
     }
